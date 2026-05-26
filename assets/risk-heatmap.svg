@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img">
-  <rect width="800" height="600" fill="#FFFFFF"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 600" role="img">
+  <rect width="1100" height="600" fill="#FFFFFF"/>
   <text x="400" y="40" text-anchor="middle" font-family="Georgia, serif" font-size="26" font-weight="bold" fill="#0A1F38">CTFCU Risk Heatmap</text>
   <text x="400" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-style="italic" fill="#555">Top 11 residual risks  ·  Likelihood × Impact</text>
   <text x="40" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#0A1F38" transform="rotate(-90 40 320)">LIKELIHOOD</text>
@@ -56,4 +56,28 @@
   <rect x="395" y="525" width="22" height="15" fill="#E67E22"/><text x="423" y="538" font-family="Arial, sans-serif" font-size="12" fill="#333">High</text>
   <rect x="475" y="525" width="22" height="15" fill="#C0392B"/><text x="503" y="538" font-family="Arial, sans-serif" font-size="12" fill="#333">Very High</text>
   <rect x="565" y="525" width="22" height="15" fill="#922B21"/><text x="593" y="538" font-family="Arial, sans-serif" font-size="12" fill="#333">Critical</text>
+  <line x1="630" y1="95" x2="630" y2="490" stroke="#DDD" stroke-width="1"/>
+  <text x="650" y="115" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#0A1F38">RISK LEGEND</text>
+  <circle cx="660" cy="140" r="11" fill="#0A1F38"/><text x="660" y="144" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#FFF">R1</text>
+  <text x="680" y="144" font-family="Arial, sans-serif" font-size="12" fill="#333">Ransomware</text>
+  <circle cx="660" cy="168" r="11" fill="#0A1F38"/><text x="660" y="172" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#FFF">R2</text>
+  <text x="680" y="172" font-family="Arial, sans-serif" font-size="12" fill="#333">Insider — Privileged Abuse</text>
+  <circle cx="660" cy="196" r="11" fill="#0A1F38"/><text x="660" y="200" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#FFF">R3</text>
+  <text x="680" y="200" font-family="Arial, sans-serif" font-size="12" fill="#333">Backup Failure</text>
+  <circle cx="660" cy="224" r="11" fill="#0A1F38"/><text x="660" y="228" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#FFF">R4</text>
+  <text x="680" y="228" font-family="Arial, sans-serif" font-size="12" fill="#333">Phishing Credential Compromise</text>
+  <circle cx="660" cy="252" r="11" fill="#0A1F38"/><text x="660" y="256" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#FFF">R7</text>
+  <text x="680" y="256" font-family="Arial, sans-serif" font-size="12" fill="#333">Critical Third-Party Compromise</text>
+  <circle cx="660" cy="280" r="11" fill="#0A1F38"/><text x="660" y="284" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#FFF">R8</text>
+  <text x="680" y="284" font-family="Arial, sans-serif" font-size="12" fill="#333">Unpatched Critical Vulnerabilities</text>
+  <circle cx="660" cy="308" r="11" fill="#0A1F38"/><text x="660" y="312" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#FFF">R9</text>
+  <text x="680" y="312" font-family="Arial, sans-serif" font-size="12" fill="#333">ATM Skimming / Tampering</text>
+  <circle cx="660" cy="336" r="11" fill="#0A1F38"/><text x="660" y="340" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#FFF">R11</text>
+  <text x="680" y="340" font-family="Arial, sans-serif" font-size="12" fill="#333">Lost / Stolen Device</text>
+  <circle cx="660" cy="364" r="11" fill="#0A1F38"/><text x="660" y="368" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#FFF">R12</text>
+  <text x="680" y="368" font-family="Arial, sans-serif" font-size="12" fill="#333">Branch Robbery</text>
+  <circle cx="660" cy="392" r="11" fill="#0A1F38"/><text x="660" y="396" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#FFF">R13</text>
+  <text x="680" y="396" font-family="Arial, sans-serif" font-size="12" fill="#333">Email Misdirection of NPI</text>
+  <circle cx="660" cy="420" r="11" fill="#0A1F38"/><text x="660" y="424" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#FFF">R15</text>
+  <text x="680" y="424" font-family="Arial, sans-serif" font-size="12" fill="#333">Workplace Violence Incident</text>
 </svg>
