@@ -1,47 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 620" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" role="img">
   <defs>
     <linearGradient id="cg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0E3A66"/><stop offset="100%" stop-color="#4A7FB8"/></linearGradient>
     <linearGradient id="pg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#7A2D2D"/><stop offset="100%" stop-color="#C25450"/></linearGradient>
+    <linearGradient id="mg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#5C2B5C"/><stop offset="100%" stop-color="#8B4789"/></linearGradient>
   </defs>
-  <rect width="1100" height="620" fill="#FFFFFF"/>
-  <text x="550" y="50" text-anchor="middle" font-family="Georgia, serif" font-size="30" font-weight="bold" fill="#0A1F38">The Two Worlds of Risk</text>
-  <text x="550" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-style="italic" fill="#555">Modern enterprise risk is converged. CTFCU&apos;s program addresses both.</text>
+  <rect width="1200" height="620" fill="#FFFFFF"/>
 
-  <!-- Bigger circles, less overlap. Left center=380, right center=720, radius=230. Overlap zone = ~210px wide -->
-  <circle cx="380" cy="340" r="230" fill="url(#cg)" opacity="0.85"/>
-  <circle cx="720" cy="340" r="230" fill="url(#pg)" opacity="0.85"/>
+  <!-- Title -->
+  <text x="600" y="50" text-anchor="middle" font-family="Georgia, serif" font-size="30" font-weight="bold" fill="#0A1F38">The Two Worlds of Risk</text>
+  <text x="600" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-style="italic" fill="#555">Modern enterprise risk is converged. CTFCU&apos;s program addresses both.</text>
 
-  <!-- LEFT CIRCLE LABELS - solo zone is roughly x=150 to x=480, dead center = 315 -->
-  <text x="265" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#FFFFFF">CYBER</text>
-  <text x="265" y="268" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#FFFFFF">GRC</text>
-  <text x="265" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#E8C76E">— ISO 27001 · NIST CSF —</text>
-  <text x="265" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#FFFFFF">Access Control</text>
-  <text x="265" y="347" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#FFFFFF">Vulnerability Mgmt</text>
-  <text x="265" y="369" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#FFFFFF">Encryption · DLP</text>
-  <text x="265" y="391" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#FFFFFF">SIEM · EDR</text>
-  <text x="265" y="413" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#FFFFFF">Third-Party Risk</text>
-  <text x="265" y="435" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#FFFFFF">Cloud Security</text>
+  <!-- LEFT PANEL: Cyber GRC -->
+  <rect x="60" y="120" width="340" height="420" rx="12" fill="url(#cg)"/>
+  <text x="230" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#FFFFFF">CYBER GRC</text>
+  <line x1="120" y1="195" x2="340" y2="195" stroke="#E8C76E" stroke-width="1.5"/>
+  <text x="230" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#E8C76E">ISO 27001  ·  NIST CSF</text>
+  <text x="230" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#FFFFFF">Access Control</text>
+  <text x="230" y="298" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#FFFFFF">Vulnerability Mgmt</text>
+  <text x="230" y="326" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#FFFFFF">Encryption · DLP</text>
+  <text x="230" y="354" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#FFFFFF">SIEM · EDR</text>
+  <text x="230" y="382" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#FFFFFF">Third-Party Risk</text>
+  <text x="230" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#FFFFFF">Cloud Security</text>
+  <text x="230" y="438" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#FFFFFF">Incident Response</text>
 
-  <!-- RIGHT CIRCLE LABELS - solo zone is roughly x=620 to x=950, dead center = 835 -->
-  <text x="835" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#FFFFFF">PHYSICAL</text>
-  <text x="835" y="268" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#FFFFFF">&amp; HUMAN</text>
-  <text x="835" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#E8C76E">— NTAC · FEMA · CPTED —</text>
-  <text x="835" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#FFFFFF">Facility Access</text>
-  <text x="835" y="347" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#FFFFFF">Branch Security</text>
-  <text x="835" y="369" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#FFFFFF">Visitor Mgmt</text>
-  <text x="835" y="391" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#FFFFFF">Robbery Response</text>
-  <text x="835" y="413" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#FFFFFF">Workplace Violence</text>
-  <text x="835" y="435" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#FFFFFF">Emergency Mgmt</text>
+  <!-- CENTER PANEL: Convergence -->
+  <rect x="430" y="160" width="340" height="340" rx="12" fill="url(#mg)"/>
+  <text x="600" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF">CONVERGENCE</text>
+  <line x1="490" y1="228" x2="710" y2="228" stroke="#E8C76E" stroke-width="1.5"/>
+  <text x="600" y="252" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-style="italic" fill="#E8C76E">Where the two worlds meet</text>
+  <text x="600" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#FFFFFF">Insider Threat</text>
+  <text x="600" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#FFFFFF">Tailgating &amp; Piggyback Entry</text>
+  <text x="600" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#FFFFFF">Behavioral Threat Assessment</text>
+  <text x="600" y="365" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#FFFFFF">Social Engineering</text>
+  <text x="600" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#FFFFFF">IR &amp; BCP Coordination</text>
+  <text x="600" y="415" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#FFFFFF">Vendor Site Visits</text>
+  <text x="600" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#FFFFFF">Workforce Risk</text>
 
-  <!-- CONVERGENCE (overlap zone center = 550) -->
-  <text x="550" y="262" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF">CONVERGENCE</text>
-  <text x="550" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#FFFFFF">Insider Threat</text>
-  <text x="550" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#FFFFFF">Tailgating</text>
-  <text x="550" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#FFFFFF">Behavioral</text>
-  <text x="550" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#FFFFFF">Threat Assess.</text>
-  <text x="550" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#FFFFFF">Social Eng.</text>
-  <text x="550" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#FFFFFF">IR Coordination</text>
+  <!-- Arrows pointing toward center -->
+  <path d="M 405 330 L 425 330 L 425 320 L 440 335 L 425 350 L 425 340 L 405 340 Z" fill="#0A1F38" opacity="0.6"/>
+  <path d="M 795 330 L 775 330 L 775 320 L 760 335 L 775 350 L 775 340 L 795 340 Z" fill="#0A1F38" opacity="0.6"/>
 
-  <text x="550" y="585" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-style="italic" fill="#555">Most GRC programs treat these as separate disciplines.</text>
-  <text x="550" y="608" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#0A1F38">CTFCU&apos;s program treats them as one converged risk function.</text>
+  <!-- RIGHT PANEL: Physical & Human -->
+  <rect x="800" y="120" width="340" height="420" rx="12" fill="url(#pg)"/>
+  <text x="970" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#FFFFFF">PHYSICAL &amp; HUMAN</text>
+  <line x1="860" y1="195" x2="1080" y2="195" stroke="#E8C76E" stroke-width="1.5"/>
+  <text x="970" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#E8C76E">NTAC  ·  FEMA  ·  CPTED</text>
+  <text x="970" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#FFFFFF">Facility Access</text>
+  <text x="970" y="298" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#FFFFFF">Branch Security</text>
+  <text x="970" y="326" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#FFFFFF">Visitor Management</text>
+  <text x="970" y="354" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#FFFFFF">Robbery Response</text>
+  <text x="970" y="382" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#FFFFFF">Workplace Violence</text>
+  <text x="970" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#FFFFFF">Emergency Management</text>
+  <text x="970" y="438" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#FFFFFF">ATM &amp; Cash Security</text>
+
+  <!-- Footer -->
+  <text x="600" y="585" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-style="italic" fill="#555">Most GRC programs treat these as separate disciplines.</text>
+  <text x="600" y="608" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#0A1F38">CTFCU&apos;s program treats them as one converged risk function.</text>
 </svg>
