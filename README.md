@@ -56,9 +56,7 @@ The two highest residual risks — **Ransomware (R1)** and **Phishing Credential
 | 5 | **R8** · Unpatched critical vulnerabilities | High (12) | IT Operations Manager |
 | 6 | **R15** · Workplace violence at branch or HQ | High (10) | Human Resources + Physical Security |
 
-📊 **Full quantitative register — view two ways:**
-- **[Risk Register (PDF — opens in browser)](./CTFCU-Risk-Register.pdf)** — 4-page preview of all sheets, no download required
-- **[Risk Register (Excel)](./CTFCU-Risk-Register.xlsx)** — the live spreadsheet with 47 formulas, conditional formatting, and the full treatment plan ($893K capital and $387K annual operating roll-up)
+📊 **Full quantitative register:** [`CTFCU-Risk-Register.xlsx`](./CTFCU-Risk-Register.xlsx) — 15 risks, full likelihood × impact scoring, treatment plan, $893K capital and $387K annual operating roll-up. *(GitHub does not preview spreadsheets in the browser — click to download and open in Excel or another spreadsheet application.)*
 
 ---
 
@@ -75,25 +73,6 @@ The program is designed against five overlapping frameworks chosen for the credi
 | **NCUA Cybersecurity Expectations** | Cybersecurity oversight specific to federally chartered credit unions, enforced by the National Credit Union Administration |
 
 Supporting references include NIST Special Publication 800-30 (risk assessment methodology), ISO/IEC 27005 (risk management process), NTAC behavioral threat assessment, MITRE ATT&CK (the industry-standard catalog of adversary techniques), and the Cybersecurity & Infrastructure Security Agency (CISA) Cross-Sector Cybersecurity Performance Goals.
-
----
-
-## Policy Library
-
-The engagement delivered **six core policies** that form the foundation of CTFCU's Information Security Management System. The full text of the foundational policy — the **Information Security Policy** required by ISO 27001 Clause 5.2 — is included in this repository as a representative example.
-
-📁 **[View the policy library →](./policies/)**
-
-The included sample policy demonstrates the structure, governance roles, risk authority tiering, and convergence framing applied across the full six-policy set. The remaining five policies follow the same template and review cadence:
-
-| # | Policy | ISO 27001 Reference |
-|---|---|---|
-| 1 | Information Security Policy *(included as full sample)* | Clause 5.2 |
-| 2 | Access Control Policy | Annex A.5.15–A.5.18 |
-| 3 | Acceptable Use Policy | Annex A.5.10, A.6.3 |
-| 4 | Third-Party Risk Management Policy | Annex A.5.19–A.5.22 |
-| 5 | Incident Response Policy | Annex A.5.24–A.5.28 |
-| 6 | Business Continuity & Disaster Recovery Policy | Annex A.5.29–A.5.30 |
 
 ---
 
